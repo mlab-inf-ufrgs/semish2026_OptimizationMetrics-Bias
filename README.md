@@ -55,17 +55,6 @@ semish2026_OptimizationMetrics-Bias/
 
 ---
 
-## Key Findings / Principais Resultados
-
-- **Metrics are not neutral** — optimization objectives shape error distributions across sociodemographic subgroups in measurable ways.
-- **Recall** is consistently associated with the highest disparity levels across all fairness metrics.
-- **Precision and Specificity** tend to produce the most balanced error distributions.
-- **PR-AUC** offers an intermediate trade-off, avoiding extreme disparities without consistently achieving the lowest unfairness.
-- **Dataset characteristics dominate** — the direction and magnitude of bias are primarily driven by the data, not by the optimization metric.
-- **No standard metric resolves the performance–fairness trade-off** — optimization redistributes errors along a constrained Pareto frontier rather than eliminating it.
-
----
-
 ## Installation / Instalação
 
 ```bash
